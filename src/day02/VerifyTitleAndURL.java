@@ -23,7 +23,7 @@ public class VerifyTitleAndURL {
             System.out.println("Page Title testi PASS");
         }else{
             System.out.println("Page Title testi FAILED");
-            System.out.println("Actual Page Title : Google ");
+            System.out.println("Actual Page Title : actualResult ");
         }
 
 
@@ -33,8 +33,8 @@ public class VerifyTitleAndURL {
         if (actualURL.equals(expectedURL)){
             System.out.println("URL testi Pass");
         }else{
-            System.out.println("URL testi FAİLED");
-            System.out.println("Actual URL : https://youtube.com");
+            System.out.println("URL testi FAILED");
+            System.out.println("Actual URL : +actualURL");
         }
         driver.close();
 
